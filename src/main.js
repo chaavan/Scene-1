@@ -6,7 +6,9 @@
 
 let config = {
     type: Phaser.AUTO, 
-    scene: [ MainMenu, Play ],
+    width: 640,
+    height: 480,
+    scene: [ MainMenu, Play ]
 }
 
 let game = new Phaser.Game(config)
